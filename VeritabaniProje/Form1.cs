@@ -15,6 +15,7 @@ namespace VeritabaniProje
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         private void guna2TextBox5_TextChanged(object sender, EventArgs e)
@@ -51,5 +52,6 @@ namespace VeritabaniProje
         {
 
         }
+
     }
 }
