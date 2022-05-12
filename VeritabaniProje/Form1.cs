@@ -15,6 +15,8 @@ namespace VeritabaniProje
         public Form1()
         {
             InitializeComponent();
+            
         }
+        
     }
 }
