@@ -1,0 +1,2 @@
+# OtelOtomasyon
+Veritabanı projesi
