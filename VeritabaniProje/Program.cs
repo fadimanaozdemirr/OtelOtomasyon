@@ -16,7 +16,8 @@ namespace VeritabaniProje
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MusteriForm());
+
+            Application.Run(new Giris());
         }
     }
 }
