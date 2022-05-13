@@ -124,9 +124,9 @@
       <DependentUpon>Kayit.cs</DependentUpon>
     </EmbeddedResource>
 
-    <EmbeddedResource Include="MusteriForm.resx">
-      <DependentUpon>MusteriForm.cs</DependentUpon>
-
+	  <EmbeddedResource Include="MusteriForm.resx">
+		  <DependentUpon>MusteriForm.cs</DependentUpon>
+	  </EmbeddedResource>
     <EmbeddedResource Include="PersonelEkranics.resx">
       <DependentUpon>PersonelEkranics.cs</DependentUpon>
 
