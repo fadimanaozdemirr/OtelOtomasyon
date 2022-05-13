@@ -9,7 +9,7 @@ namespace VeritabaniProje
     public class DbManager
     {
         private DbManager() { }
-        private SqlBaglanti baglanti = new SqlBaglanti();
+        private SqlBaglanti sqlBaglanti = new SqlBaglanti();
         private static DbManager instance;
         public static DbManager Instance()
         {
@@ -20,16 +20,14 @@ namespace VeritabaniProje
             return instance;
         }
 
-        public void insert(string komut)
+        public void veritabaniKomut(string komut)
         {
-            using (var con = baglanti.connection())
+            using (SqlConnection baglanti = sqlBaglanti.connection())
             {
-                using (SqlCommand command = new SqlCommand())
+                using (SqlCommand command = new SqlCommand(komut, baglanti))
                 {
-                    command.Connection = con;
-                    command.CommandText = komut;
                     command.ExecuteNonQuery();
-                    con.Close();
+                    baglanti.Close();
                 }
             }
         }
