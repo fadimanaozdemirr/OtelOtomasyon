@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace VeritabaniProje
 {
-    public partial class Kayit : Form
+    public partial class PersonelEkranics : Form
     {
-        public Kayit()
+        public PersonelEkranics()
         {
             InitializeComponent();
-        }
-
-        private void Kayit_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

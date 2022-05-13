@@ -11,7 +11,7 @@ namespace VeritabaniProje
     {
         public SqlConnection connection()
         {
-            SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-D966NE9;Initial Catalog=veritabaniproje;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-60630FD;Initial Catalog=veritabaniproje;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
             con.Open();
             return con;
         }

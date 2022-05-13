@@ -21,5 +21,17 @@ namespace VeritabaniProje
         {
             
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            Form1 form2 = new Form1();
+            form2.Show();  
+            this.Hide();
+        }
+
+        private void Giris_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

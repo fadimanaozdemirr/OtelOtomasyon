@@ -53,5 +53,9 @@ namespace VeritabaniProje
 
         }
 
+        private void guna2RadioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
