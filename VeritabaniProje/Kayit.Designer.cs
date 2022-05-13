@@ -37,7 +37,7 @@ namespace VeritabaniProje
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "Kayit";
-            this.Text = "Kayit";
+            this.Text = "Yönetici";
             this.Load += new System.EventHandler(this.Kayit_Load);
             this.ResumeLayout(false);
 

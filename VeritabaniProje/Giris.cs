@@ -24,14 +24,29 @@ namespace VeritabaniProje
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            Form1 form2 = new Form1();
-            form2.Show();  
-            this.Hide();
+            if (rbAdmin.Checked)
+            {
+                YoneticiEkranics yonetici = new YoneticiEkranics();
+                yonetici.Show();
+                this.Hide();
+              
+            }
+            else if(rbPersonel.Checked) 
+            {
+                PersonelEkranics personel = new PersonelEkranics();
+                personel.Show();
+                this.Hide();
+
+            }
+
+            
         }
 
         private void Giris_Load(object sender, EventArgs e)
         {
 
         }
+
+       
     }
 }

@@ -16,5 +16,18 @@ namespace VeritabaniProje
         {
             InitializeComponent();
         }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        { MusteriForm form2 = new MusteriForm();
+            form2.Show();  
+            this.Hide();
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            Form1 form = new Form1();
+            form.ShowDialog();
+            form.Hide();
+        }
     }
 }

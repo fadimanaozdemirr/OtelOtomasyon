@@ -39,6 +39,12 @@ namespace VeritabaniProje
             DbManager.Instance().veritabaniKomut(komut);
         }
 
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            PersonelEkranics personel = new PersonelEkranics();
+            personel.Show();
+            personel.Hide();
 
+        }
     }
 }
