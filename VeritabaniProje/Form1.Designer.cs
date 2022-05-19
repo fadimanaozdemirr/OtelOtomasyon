@@ -38,8 +38,8 @@ namespace VeritabaniProje
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.guna2DateTimePicker2 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.girisTarihi = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.cikisTarihi = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.rb_on_odeme = new Guna.UI2.WinForms.Guna2RadioButton();
             this.rb_60 = new Guna.UI2.WinForms.Guna2RadioButton();
@@ -56,6 +56,9 @@ namespace VeritabaniProje
             this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.tbKimlikNoRezervasyon = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.btnMusteriCek = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2Panel2.SuspendLayout();
@@ -136,43 +139,43 @@ namespace VeritabaniProje
             this.guna2HtmlLabel5.TabIndex = 6;
             this.guna2HtmlLabel5.Text = "Çıkış Tarihi:";
             // 
-            // guna2DateTimePicker1
+            // girisTarihi
             // 
-            this.guna2DateTimePicker1.BorderRadius = 5;
-            this.guna2DateTimePicker1.Checked = true;
-            this.guna2DateTimePicker1.CheckedState.Parent = this.guna2DateTimePicker1;
-            this.guna2DateTimePicker1.FillColor = System.Drawing.Color.White;
-            this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.guna2DateTimePicker1.HoverState.Parent = this.guna2DateTimePicker1;
-            this.guna2DateTimePicker1.Location = new System.Drawing.Point(418, 291);
-            this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
-            this.guna2DateTimePicker1.ShadowDecoration.Parent = this.guna2DateTimePicker1;
-            this.guna2DateTimePicker1.Size = new System.Drawing.Size(159, 26);
-            this.guna2DateTimePicker1.TabIndex = 13;
-            this.guna2DateTimePicker1.Value = new System.DateTime(2022, 5, 9, 21, 51, 15, 142);
-            this.guna2DateTimePicker1.ValueChanged += new System.EventHandler(this.guna2DateTimePicker1_ValueChanged);
+            this.girisTarihi.BorderRadius = 5;
+            this.girisTarihi.Checked = true;
+            this.girisTarihi.CheckedState.Parent = this.girisTarihi;
+            this.girisTarihi.FillColor = System.Drawing.Color.White;
+            this.girisTarihi.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.girisTarihi.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.girisTarihi.HoverState.Parent = this.girisTarihi;
+            this.girisTarihi.Location = new System.Drawing.Point(418, 291);
+            this.girisTarihi.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.girisTarihi.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.girisTarihi.Name = "girisTarihi";
+            this.girisTarihi.ShadowDecoration.Parent = this.girisTarihi;
+            this.girisTarihi.Size = new System.Drawing.Size(172, 26);
+            this.girisTarihi.TabIndex = 13;
+            this.girisTarihi.Value = new System.DateTime(2022, 5, 9, 21, 51, 15, 142);
+            this.girisTarihi.ValueChanged += new System.EventHandler(this.guna2DateTimePicker1_ValueChanged);
             // 
-            // guna2DateTimePicker2
+            // cikisTarihi
             // 
-            this.guna2DateTimePicker2.BorderRadius = 5;
-            this.guna2DateTimePicker2.Checked = true;
-            this.guna2DateTimePicker2.CheckedState.Parent = this.guna2DateTimePicker2;
-            this.guna2DateTimePicker2.FillColor = System.Drawing.Color.White;
-            this.guna2DateTimePicker2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.guna2DateTimePicker2.HoverState.Parent = this.guna2DateTimePicker2;
-            this.guna2DateTimePicker2.Location = new System.Drawing.Point(418, 325);
-            this.guna2DateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.guna2DateTimePicker2.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.guna2DateTimePicker2.Name = "guna2DateTimePicker2";
-            this.guna2DateTimePicker2.ShadowDecoration.Parent = this.guna2DateTimePicker2;
-            this.guna2DateTimePicker2.Size = new System.Drawing.Size(159, 26);
-            this.guna2DateTimePicker2.TabIndex = 14;
-            this.guna2DateTimePicker2.Value = new System.DateTime(2022, 5, 9, 21, 51, 15, 142);
-            this.guna2DateTimePicker2.ValueChanged += new System.EventHandler(this.guna2DateTimePicker2_ValueChanged);
+            this.cikisTarihi.BorderRadius = 5;
+            this.cikisTarihi.Checked = true;
+            this.cikisTarihi.CheckedState.Parent = this.cikisTarihi;
+            this.cikisTarihi.FillColor = System.Drawing.Color.White;
+            this.cikisTarihi.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.cikisTarihi.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.cikisTarihi.HoverState.Parent = this.cikisTarihi;
+            this.cikisTarihi.Location = new System.Drawing.Point(418, 325);
+            this.cikisTarihi.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.cikisTarihi.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.cikisTarihi.Name = "cikisTarihi";
+            this.cikisTarihi.ShadowDecoration.Parent = this.cikisTarihi;
+            this.cikisTarihi.Size = new System.Drawing.Size(172, 26);
+            this.cikisTarihi.TabIndex = 14;
+            this.cikisTarihi.Value = new System.DateTime(2022, 5, 9, 21, 51, 15, 142);
+            this.cikisTarihi.ValueChanged += new System.EventHandler(this.guna2DateTimePicker2_ValueChanged);
             // 
             // guna2HtmlLabel8
             // 
@@ -274,7 +277,7 @@ namespace VeritabaniProje
             this.btn_rezervasyon.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_rezervasyon.ForeColor = System.Drawing.Color.White;
             this.btn_rezervasyon.HoverState.Parent = this.btn_rezervasyon;
-            this.btn_rezervasyon.Location = new System.Drawing.Point(661, 298);
+            this.btn_rezervasyon.Location = new System.Drawing.Point(661, 392);
             this.btn_rezervasyon.Name = "btn_rezervasyon";
             this.btn_rezervasyon.ShadowDecoration.Parent = this.btn_rezervasyon;
             this.btn_rezervasyon.Size = new System.Drawing.Size(121, 33);
@@ -287,7 +290,7 @@ namespace VeritabaniProje
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(100)))), ((int)(((byte)(55)))));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(51, 12);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(66, 12);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(92, 20);
             this.guna2HtmlLabel2.TabIndex = 21;
@@ -442,17 +445,73 @@ namespace VeritabaniProje
             this.guna2Panel2.Controls.Add(this.guna2HtmlLabel7);
             this.guna2Panel2.Controls.Add(this.guna2TextBox2);
             this.guna2Panel2.Controls.Add(this.guna2TextBox1);
-            this.guna2Panel2.Location = new System.Drawing.Point(610, 88);
+            this.guna2Panel2.Location = new System.Drawing.Point(615, 198);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
             this.guna2Panel2.Size = new System.Drawing.Size(213, 165);
             this.guna2Panel2.TabIndex = 30;
+            // 
+            // tbKimlikNoRezervasyon
+            // 
+            this.tbKimlikNoRezervasyon.BorderRadius = 5;
+            this.tbKimlikNoRezervasyon.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tbKimlikNoRezervasyon.DefaultText = "";
+            this.tbKimlikNoRezervasyon.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tbKimlikNoRezervasyon.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tbKimlikNoRezervasyon.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tbKimlikNoRezervasyon.DisabledState.Parent = this.tbKimlikNoRezervasyon;
+            this.tbKimlikNoRezervasyon.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tbKimlikNoRezervasyon.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tbKimlikNoRezervasyon.FocusedState.Parent = this.tbKimlikNoRezervasyon;
+            this.tbKimlikNoRezervasyon.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tbKimlikNoRezervasyon.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tbKimlikNoRezervasyon.HoverState.Parent = this.tbKimlikNoRezervasyon;
+            this.tbKimlikNoRezervasyon.Location = new System.Drawing.Point(661, 83);
+            this.tbKimlikNoRezervasyon.Name = "tbKimlikNoRezervasyon";
+            this.tbKimlikNoRezervasyon.PasswordChar = '\0';
+            this.tbKimlikNoRezervasyon.PlaceholderText = "";
+            this.tbKimlikNoRezervasyon.SelectedText = "";
+            this.tbKimlikNoRezervasyon.ShadowDecoration.Parent = this.tbKimlikNoRezervasyon;
+            this.tbKimlikNoRezervasyon.Size = new System.Drawing.Size(150, 24);
+            this.tbKimlikNoRezervasyon.TabIndex = 31;
+            // 
+            // guna2HtmlLabel10
+            // 
+            this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel10.Location = new System.Drawing.Point(605, 92);
+            this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
+            this.guna2HtmlLabel10.Size = new System.Drawing.Size(50, 15);
+            this.guna2HtmlLabel10.TabIndex = 32;
+            this.guna2HtmlLabel10.Text = "Kimlik No:";
+            // 
+            // btnMusteriCek
+            // 
+            this.btnMusteriCek.CheckedState.Parent = this.btnMusteriCek;
+            this.btnMusteriCek.CustomImages.Parent = this.btnMusteriCek;
+            this.btnMusteriCek.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnMusteriCek.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnMusteriCek.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnMusteriCek.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnMusteriCek.DisabledState.Parent = this.btnMusteriCek;
+            this.btnMusteriCek.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnMusteriCek.ForeColor = System.Drawing.Color.White;
+            this.btnMusteriCek.HoverState.Parent = this.btnMusteriCek;
+            this.btnMusteriCek.Location = new System.Drawing.Point(734, 113);
+            this.btnMusteriCek.Name = "btnMusteriCek";
+            this.btnMusteriCek.ShadowDecoration.Parent = this.btnMusteriCek;
+            this.btnMusteriCek.Size = new System.Drawing.Size(77, 23);
+            this.btnMusteriCek.TabIndex = 33;
+            this.btnMusteriCek.Text = "Müşteri";
+            this.btnMusteriCek.Click += new System.EventHandler(this.btnMusteriCek_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(880, 457);
+            this.Controls.Add(this.btnMusteriCek);
+            this.Controls.Add(this.guna2HtmlLabel10);
+            this.Controls.Add(this.tbKimlikNoRezervasyon);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.btn_rezervasyon);
             this.Controls.Add(this.rb_tesvik);
@@ -460,8 +519,8 @@ namespace VeritabaniProje
             this.Controls.Add(this.rb_60);
             this.Controls.Add(this.rb_on_odeme);
             this.Controls.Add(this.guna2HtmlLabel8);
-            this.Controls.Add(this.guna2DateTimePicker2);
-            this.Controls.Add(this.guna2DateTimePicker1);
+            this.Controls.Add(this.cikisTarihi);
+            this.Controls.Add(this.girisTarihi);
             this.Controls.Add(this.guna2HtmlLabel5);
             this.Controls.Add(this.guna2HtmlLabel4);
             this.Controls.Add(this.guna2ControlBox1);
@@ -489,8 +548,8 @@ namespace VeritabaniProje
         private Guna.UI2.WinForms.Guna2RadioButton rb_60;
         private Guna.UI2.WinForms.Guna2RadioButton rb_on_odeme;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker2;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
+        private Guna.UI2.WinForms.Guna2DateTimePicker cikisTarihi;
+        private Guna.UI2.WinForms.Guna2DateTimePicker girisTarihi;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
@@ -508,6 +567,9 @@ namespace VeritabaniProje
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
+        private Guna.UI2.WinForms.Guna2Button btnMusteriCek;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel10;
+        private Guna.UI2.WinForms.Guna2TextBox tbKimlikNoRezervasyon;
     }
 }
 

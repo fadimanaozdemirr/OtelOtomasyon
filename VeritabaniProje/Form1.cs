@@ -60,12 +60,21 @@ namespace VeritabaniProje
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
+            var giris = girisTarihi.Value;
+            var cikis = cikisTarihi.Value;
+
+            var gunSayisi = cikis.Day - giris.Day;
+
+            string sorgu = "SELECT taban_fiyat FROM tblOda";
+            int guncelTabanFiyat = DbManager.Instance().guncelTabanFiyat(sorgu);
+
+
             if (rb_on_odeme.Checked == true)
             {
-                int onOdemeFiyat;
-                onOdemeFiyat = taban_fiyat * 75 / 100;
-                //string kayit = "select taban_fiyat from tblOda where taban_fiyat = @taban_fiyat";
-                //SqlParameter pr1 = new SqlParameter("taban_fiyat");
+                int onOdemeFiyat = guncelTabanFiyat * 75 / 100;
+
+                onOdemeFiyat *= gunSayisi;
+
             }
 
             if(rb_60.Checked == true)
@@ -104,6 +113,26 @@ namespace VeritabaniProje
             {
                 guna2Panel2.Hide();
             }
+        }
+
+        private void btnMusteriCek_Click(object sender, EventArgs e)
+        {
+            string kimlik_no = tbKimlikNoRezervasyon.Text;
+
+            string komut = $"SELECT musteri_id FROM tblMusteri WHERE kimlik_no = '{kimlik_no}' ";
+
+            int musteri_id = DbManager.Instance().musteriCek(komut, kimlik_no);
+
+            if(musteri_id == 0)
+            {
+                MessageBox.Show("Kimlik no yanlış");
+            }
+            else
+            {
+                MessageBox.Show(musteri_id.ToString());
+            }
+
+            
         }
     }
 }

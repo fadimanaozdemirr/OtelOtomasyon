@@ -34,6 +34,46 @@ namespace VeritabaniProje
             }
         }
 
+        public int musteriCek(string komut, string kimlik_no)
+        {
+            int musteri_id = 0;
+            using (SqlConnection baglanti = sqlBaglanti.connection())
+            {
+                using (SqlCommand command = new SqlCommand(komut, baglanti))
+                {
+
+                    command.Parameters.AddWithValue("@kimlik_no", kimlik_no);
+                    SqlDataReader reader = command.ExecuteReader();
+                    if (reader.Read())
+                    {
+                        musteri_id = Convert.ToInt32(reader["musteri_id"]);
+                    }
+
+                    baglanti.Close();
+                }
+            }
+            return musteri_id;
+        }
+
+        public int guncelTabanFiyat(string komut)
+        {
+            int tabanFiyat = 0;
+            using (SqlConnection baglanti = sqlBaglanti.connection())
+            {
+                using (SqlCommand command = new SqlCommand(komut, baglanti))
+                {
+
+                    SqlDataReader reader = command.ExecuteReader();
+                    if (reader.Read())
+                    {
+                        tabanFiyat = Convert.ToInt32(reader["taban_fiyat"]);
+                    }
+
+                    baglanti.Close();
+                }
+            }
+            return tabanFiyat;
+        }
 
     }
 }
