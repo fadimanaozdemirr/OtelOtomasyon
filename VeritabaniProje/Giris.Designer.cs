@@ -53,7 +53,7 @@ namespace VeritabaniProje
             this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(443, 393);
+            this.guna2Panel1.Size = new System.Drawing.Size(443, 432);
             this.guna2Panel1.TabIndex = 0;
             // 
             // guna2PictureBox1
@@ -65,7 +65,7 @@ namespace VeritabaniProje
             this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(643, 393);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(643, 432);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
@@ -182,7 +182,7 @@ namespace VeritabaniProje
             this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(100)))), ((int)(((byte)(55)))));
             this.guna2ControlBox1.HoverState.Parent = this.guna2ControlBox1;
             this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(787, 11);
+            this.guna2ControlBox1.Location = new System.Drawing.Point(824, 11);
             this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.ShadowDecoration.Parent = this.guna2ControlBox1;
@@ -242,7 +242,7 @@ namespace VeritabaniProje
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(845, 393);
+            this.ClientSize = new System.Drawing.Size(882, 432);
             this.Controls.Add(this.guna2HtmlLabel2);
             this.Controls.Add(this.rbPersonel);
             this.Controls.Add(this.rbAdmin);

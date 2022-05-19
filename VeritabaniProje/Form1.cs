@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+
 
 namespace VeritabaniProje
 {
@@ -17,11 +19,9 @@ namespace VeritabaniProje
             InitializeComponent();
             
         }
-
-        private void guna2TextBox5_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        int taban_fiyat = 100;
+        
+        
 
         private void guna2DateTimePicker2_ValueChanged(object sender, EventArgs e)
         {
@@ -56,6 +56,22 @@ namespace VeritabaniProje
         private void guna2RadioButton1_CheckedChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            if (rb_on_odeme.Checked == true)
+            {
+                int onOdemeFiyat;
+                onOdemeFiyat = taban_fiyat * 75 / 100;
+                string kayit = "select taban_fiyat from tblOda where taban_fiyat = @taban_fiyat";
+                SqlParameter pr1 = new SqlParameter("taban_fiyat")
+            }
+        }
+
+        private void guna2RadioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
