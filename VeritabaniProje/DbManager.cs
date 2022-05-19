@@ -24,8 +24,10 @@ namespace VeritabaniProje
         {
             using (SqlConnection baglanti = sqlBaglanti.connection())
             {
-                using (SqlCommand command = new SqlCommand(komut, baglanti))
+                using (SqlCommand command = new SqlCommand())
                 {
+                    command.Connection = baglanti;
+                    command.CommandText = komut;
                     command.ExecuteNonQuery();
                     baglanti.Close();
                 }

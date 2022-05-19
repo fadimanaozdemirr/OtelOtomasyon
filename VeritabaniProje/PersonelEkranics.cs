@@ -34,5 +34,12 @@ namespace VeritabaniProje
         {
 
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            PersonelRapor pr = new PersonelRapor();
+            pr.ShowDialog();
+        }
     }
 }

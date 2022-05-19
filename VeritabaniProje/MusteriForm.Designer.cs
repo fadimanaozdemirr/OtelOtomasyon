@@ -65,14 +65,13 @@ namespace VeritabaniProje
             this.tbMusteriAd.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbMusteriAd.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbMusteriAd.HoverState.Parent = this.tbMusteriAd;
-            this.tbMusteriAd.Location = new System.Drawing.Point(190, 13);
-            this.tbMusteriAd.Margin = new System.Windows.Forms.Padding(4);
+            this.tbMusteriAd.Location = new System.Drawing.Point(142, 11);
             this.tbMusteriAd.Name = "tbMusteriAd";
             this.tbMusteriAd.PasswordChar = '\0';
             this.tbMusteriAd.PlaceholderText = "";
             this.tbMusteriAd.SelectedText = "";
             this.tbMusteriAd.ShadowDecoration.Parent = this.tbMusteriAd;
-            this.tbMusteriAd.Size = new System.Drawing.Size(241, 39);
+            this.tbMusteriAd.Size = new System.Drawing.Size(181, 32);
             this.tbMusteriAd.TabIndex = 9;
             // 
             // tbMusteriSoyad
@@ -90,14 +89,13 @@ namespace VeritabaniProje
             this.tbMusteriSoyad.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbMusteriSoyad.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbMusteriSoyad.HoverState.Parent = this.tbMusteriSoyad;
-            this.tbMusteriSoyad.Location = new System.Drawing.Point(190, 73);
-            this.tbMusteriSoyad.Margin = new System.Windows.Forms.Padding(4);
+            this.tbMusteriSoyad.Location = new System.Drawing.Point(142, 59);
             this.tbMusteriSoyad.Name = "tbMusteriSoyad";
             this.tbMusteriSoyad.PasswordChar = '\0';
             this.tbMusteriSoyad.PlaceholderText = "";
             this.tbMusteriSoyad.SelectedText = "";
             this.tbMusteriSoyad.ShadowDecoration.Parent = this.tbMusteriSoyad;
-            this.tbMusteriSoyad.Size = new System.Drawing.Size(241, 39);
+            this.tbMusteriSoyad.Size = new System.Drawing.Size(181, 32);
             this.tbMusteriSoyad.TabIndex = 9;
             // 
             // tbKimlikNo
@@ -115,14 +113,13 @@ namespace VeritabaniProje
             this.tbKimlikNo.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbKimlikNo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbKimlikNo.HoverState.Parent = this.tbKimlikNo;
-            this.tbKimlikNo.Location = new System.Drawing.Point(190, 133);
-            this.tbKimlikNo.Margin = new System.Windows.Forms.Padding(4);
+            this.tbKimlikNo.Location = new System.Drawing.Point(142, 108);
             this.tbKimlikNo.Name = "tbKimlikNo";
             this.tbKimlikNo.PasswordChar = '\0';
             this.tbKimlikNo.PlaceholderText = "";
             this.tbKimlikNo.SelectedText = "";
             this.tbKimlikNo.ShadowDecoration.Parent = this.tbKimlikNo;
-            this.tbKimlikNo.Size = new System.Drawing.Size(241, 39);
+            this.tbKimlikNo.Size = new System.Drawing.Size(181, 32);
             this.tbKimlikNo.TabIndex = 10;
             // 
             // tbTelefon
@@ -140,14 +137,13 @@ namespace VeritabaniProje
             this.tbTelefon.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbTelefon.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbTelefon.HoverState.Parent = this.tbTelefon;
-            this.tbTelefon.Location = new System.Drawing.Point(190, 195);
-            this.tbTelefon.Margin = new System.Windows.Forms.Padding(4);
+            this.tbTelefon.Location = new System.Drawing.Point(142, 158);
             this.tbTelefon.Name = "tbTelefon";
             this.tbTelefon.PasswordChar = '\0';
             this.tbTelefon.PlaceholderText = "";
             this.tbTelefon.SelectedText = "";
             this.tbTelefon.ShadowDecoration.Parent = this.tbTelefon;
-            this.tbTelefon.Size = new System.Drawing.Size(241, 39);
+            this.tbTelefon.Size = new System.Drawing.Size(181, 32);
             this.tbTelefon.TabIndex = 11;
             // 
             // tbEposta
@@ -165,23 +161,23 @@ namespace VeritabaniProje
             this.tbEposta.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbEposta.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbEposta.HoverState.Parent = this.tbEposta;
-            this.tbEposta.Location = new System.Drawing.Point(190, 258);
-            this.tbEposta.Margin = new System.Windows.Forms.Padding(4);
+            this.tbEposta.Location = new System.Drawing.Point(142, 210);
             this.tbEposta.Name = "tbEposta";
             this.tbEposta.PasswordChar = '\0';
             this.tbEposta.PlaceholderText = "";
             this.tbEposta.SelectedText = "";
             this.tbEposta.ShadowDecoration.Parent = this.tbEposta;
-            this.tbEposta.Size = new System.Drawing.Size(241, 39);
+            this.tbEposta.Size = new System.Drawing.Size(181, 32);
             this.tbEposta.TabIndex = 12;
             // 
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(132, 25);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(99, 20);
+            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(34, 27);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(27, 22);
             this.guna2HtmlLabel1.TabIndex = 13;
             this.guna2HtmlLabel1.Text = "Ad: ";
             // 
@@ -189,9 +185,10 @@ namespace VeritabaniProje
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(100, 85);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(75, 69);
+            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(66, 27);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(52, 22);
             this.guna2HtmlLabel2.TabIndex = 14;
             this.guna2HtmlLabel2.Text = "Soyad: ";
             // 
@@ -199,9 +196,10 @@ namespace VeritabaniProje
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(75, 145);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(56, 118);
+            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(91, 27);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(71, 22);
             this.guna2HtmlLabel3.TabIndex = 15;
             this.guna2HtmlLabel3.Text = "Kimlik No: ";
             // 
@@ -209,9 +207,10 @@ namespace VeritabaniProje
             // 
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(91, 207);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(68, 168);
+            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(75, 27);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(60, 22);
             this.guna2HtmlLabel4.TabIndex = 16;
             this.guna2HtmlLabel4.Text = "Telefon: ";
             // 
@@ -219,9 +218,10 @@ namespace VeritabaniProje
             // 
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(87, 270);
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(65, 219);
+            this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(79, 27);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(64, 22);
             this.guna2HtmlLabel5.TabIndex = 17;
             this.guna2HtmlLabel5.Text = "E-Posta: ";
             // 
@@ -239,11 +239,10 @@ namespace VeritabaniProje
             this.btnMusteriEkle.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnMusteriEkle.ForeColor = System.Drawing.Color.White;
             this.btnMusteriEkle.HoverState.Parent = this.btnMusteriEkle;
-            this.btnMusteriEkle.Location = new System.Drawing.Point(657, 13);
-            this.btnMusteriEkle.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMusteriEkle.Location = new System.Drawing.Point(493, 11);
             this.btnMusteriEkle.Name = "btnMusteriEkle";
             this.btnMusteriEkle.ShadowDecoration.Parent = this.btnMusteriEkle;
-            this.btnMusteriEkle.Size = new System.Drawing.Size(168, 44);
+            this.btnMusteriEkle.Size = new System.Drawing.Size(126, 36);
             this.btnMusteriEkle.TabIndex = 18;
             this.btnMusteriEkle.Text = "Müşteri Ekle";
             this.btnMusteriEkle.Click += new System.EventHandler(this.btnMusteriEkle_Click);
@@ -262,11 +261,10 @@ namespace VeritabaniProje
             this.btnMusteriGuncelle.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnMusteriGuncelle.ForeColor = System.Drawing.Color.White;
             this.btnMusteriGuncelle.HoverState.Parent = this.btnMusteriGuncelle;
-            this.btnMusteriGuncelle.Location = new System.Drawing.Point(657, 85);
-            this.btnMusteriGuncelle.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMusteriGuncelle.Location = new System.Drawing.Point(493, 77);
             this.btnMusteriGuncelle.Name = "btnMusteriGuncelle";
             this.btnMusteriGuncelle.ShadowDecoration.Parent = this.btnMusteriGuncelle;
-            this.btnMusteriGuncelle.Size = new System.Drawing.Size(168, 44);
+            this.btnMusteriGuncelle.Size = new System.Drawing.Size(126, 36);
             this.btnMusteriGuncelle.TabIndex = 19;
             this.btnMusteriGuncelle.Text = "Müşteri Güncelle";
             // 
@@ -284,11 +282,10 @@ namespace VeritabaniProje
             this.btnMusteriSil.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnMusteriSil.ForeColor = System.Drawing.Color.White;
             this.btnMusteriSil.HoverState.Parent = this.btnMusteriSil;
-            this.btnMusteriSil.Location = new System.Drawing.Point(657, 166);
-            this.btnMusteriSil.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMusteriSil.Location = new System.Drawing.Point(493, 143);
             this.btnMusteriSil.Name = "btnMusteriSil";
             this.btnMusteriSil.ShadowDecoration.Parent = this.btnMusteriSil;
-            this.btnMusteriSil.Size = new System.Drawing.Size(168, 44);
+            this.btnMusteriSil.Size = new System.Drawing.Size(126, 36);
             this.btnMusteriSil.TabIndex = 20;
             this.btnMusteriSil.Text = "Müşteri Sil";
             // 
@@ -321,13 +318,14 @@ namespace VeritabaniProje
             this.dgMusteri.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dgMusteri.EnableHeadersVisualStyles = false;
             this.dgMusteri.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgMusteri.Location = new System.Drawing.Point(0, 364);
+            this.dgMusteri.Location = new System.Drawing.Point(0, 296);
+            this.dgMusteri.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgMusteri.Name = "dgMusteri";
             this.dgMusteri.RowHeadersVisible = false;
             this.dgMusteri.RowHeadersWidth = 51;
             this.dgMusteri.RowTemplate.Height = 24;
             this.dgMusteri.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgMusteri.Size = new System.Drawing.Size(1080, 250);
+            this.dgMusteri.Size = new System.Drawing.Size(810, 203);
             this.dgMusteri.TabIndex = 21;
             this.dgMusteri.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgMusteri.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -365,20 +363,19 @@ namespace VeritabaniProje
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(670, 270);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2Button1.Location = new System.Drawing.Point(493, 209);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(168, 44);
+            this.guna2Button1.Size = new System.Drawing.Size(126, 36);
             this.guna2Button1.TabIndex = 22;
             this.guna2Button1.Text = "Geri Dön";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // MusteriForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1080, 614);
+            this.ClientSize = new System.Drawing.Size(810, 499);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.dgMusteri);
             this.Controls.Add(this.btnMusteriSil);
@@ -394,6 +391,7 @@ namespace VeritabaniProje
             this.Controls.Add(this.tbKimlikNo);
             this.Controls.Add(this.tbMusteriSoyad);
             this.Controls.Add(this.tbMusteriAd);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MusteriForm";
             this.Text = "MusteriForm";
             ((System.ComponentModel.ISupportInitialize)(this.dgMusteri)).EndInit();

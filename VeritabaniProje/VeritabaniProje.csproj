@@ -67,6 +67,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminPaneli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPaneli.Designer.cs">
+      <DependentUpon>AdminPaneli.cs</DependentUpon>
+    </Compile>
     <Compile Include="check_in.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +112,12 @@
     <Compile Include="PersonelEkranics.Designer.cs">
       <DependentUpon>PersonelEkranics.cs</DependentUpon>
     </Compile>
+    <Compile Include="PersonelRapor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelRapor.Designer.cs">
+      <DependentUpon>PersonelRapor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rezervasyon.cs" />
@@ -118,6 +130,9 @@
     <Compile Include="YoneticiEkranics.Designer.cs">
       <DependentUpon>YoneticiEkranics.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AdminPaneli.resx">
+      <DependentUpon>AdminPaneli.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="check_in.resx">
       <DependentUpon>check_in.cs</DependentUpon>
     </EmbeddedResource>
@@ -135,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PersonelEkranics.resx">
       <DependentUpon>PersonelEkranics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelRapor.resx">
+      <DependentUpon>PersonelRapor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
