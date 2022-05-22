@@ -40,9 +40,7 @@ namespace VeritabaniProje
             {
                 if (rbAdmin.Checked)
                 {
-                    YoneticiEkranics yonetici = new YoneticiEkranics();
-                    yonetici.Show();
-                    this.Hide();
+                  
 
                 }
                 else if (rbPersonel.Checked)

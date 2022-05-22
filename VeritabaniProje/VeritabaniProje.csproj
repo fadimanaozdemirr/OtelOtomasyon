@@ -100,12 +100,6 @@
     <Compile Include="Giris.Designer.cs">
       <DependentUpon>Giris.cs</DependentUpon>
     </Compile>
-    <Compile Include="Kayit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Kayit.Designer.cs">
-      <DependentUpon>Kayit.cs</DependentUpon>
-    </Compile>
     <Compile Include="PersonelEkranics.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,12 +118,6 @@
     <Compile Include="RezervasyonTipi.cs" />
     <Compile Include="SqlBaglanti.cs" />
     <Compile Include="User.cs" />
-    <Compile Include="YoneticiEkranics.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="YoneticiEkranics.Designer.cs">
-      <DependentUpon>YoneticiEkranics.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="AdminPaneli.resx">
       <DependentUpon>AdminPaneli.cs</DependentUpon>
     </EmbeddedResource>
@@ -141,9 +129,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Giris.resx">
       <DependentUpon>Giris.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Kayit.resx">
-      <DependentUpon>Kayit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MusteriForm.resx">
       <DependentUpon>MusteriForm.cs</DependentUpon>
@@ -164,9 +149,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="YoneticiEkranics.resx">
-      <DependentUpon>YoneticiEkranics.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

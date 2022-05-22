@@ -18,7 +18,8 @@ namespace VeritabaniProje
         }
 
         private void guna2Button3_Click(object sender, EventArgs e)
-        { MusteriForm form2 = new MusteriForm();
+        { 
+            MusteriForm form2 = new MusteriForm();
             form2.Show();  
             this.Hide();
         }
