@@ -78,7 +78,7 @@ namespace VeritabaniProje
 
         public void odaListe(string komut, ComboBox cbOda)
         {
-            //List<Oda> odaList = new List<Oda>();
+            
 
             using (SqlConnection baglanti = sqlBaglanti.connection())
             {

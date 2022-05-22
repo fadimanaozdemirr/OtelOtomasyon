@@ -9,7 +9,7 @@ namespace VeritabaniProje
     public class Rezervasyon
     {
         public int rezervasyon_id { get; set; }
-        public DateTime baskangic_tarih { get; set; }
+        public DateTime baslangic_tarih { get; set; }
         public DateTime cikis_tarih { get; set; }
         public float toplam_fiyat { get; set; }
         public int gun_sayisi { get; set; }

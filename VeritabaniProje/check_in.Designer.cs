@@ -34,24 +34,21 @@ namespace VeritabaniProje
             this.btnMusteriCekCheckIn = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.tbKimlikNoChechIn = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.SuspendLayout();
             // 
             // btnCheckIn
             // 
-            this.btnCheckIn.CheckedState.Parent = this.btnCheckIn;
-            this.btnCheckIn.CustomImages.Parent = this.btnCheckIn;
             this.btnCheckIn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnCheckIn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnCheckIn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnCheckIn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnCheckIn.DisabledState.Parent = this.btnCheckIn;
             this.btnCheckIn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnCheckIn.ForeColor = System.Drawing.Color.White;
-            this.btnCheckIn.HoverState.Parent = this.btnCheckIn;
-            this.btnCheckIn.Location = new System.Drawing.Point(304, 214);
+            this.btnCheckIn.Location = new System.Drawing.Point(228, 174);
+            this.btnCheckIn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCheckIn.Name = "btnCheckIn";
-            this.btnCheckIn.ShadowDecoration.Parent = this.btnCheckIn;
-            this.btnCheckIn.Size = new System.Drawing.Size(180, 45);
+            this.btnCheckIn.Size = new System.Drawing.Size(135, 37);
             this.btnCheckIn.TabIndex = 1;
             this.btnCheckIn.Text = "Check-In";
             this.btnCheckIn.Click += new System.EventHandler(this.btnCheckIn_Click);
@@ -59,28 +56,23 @@ namespace VeritabaniProje
             // cbOda
             // 
             this.cbOda.FormattingEnabled = true;
-            this.cbOda.Location = new System.Drawing.Point(609, 61);
+            this.cbOda.Location = new System.Drawing.Point(457, 50);
+            this.cbOda.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbOda.Name = "cbOda";
-            this.cbOda.Size = new System.Drawing.Size(191, 24);
+            this.cbOda.Size = new System.Drawing.Size(144, 21);
             this.cbOda.TabIndex = 2;
             // 
             // btnMusteriCekCheckIn
             // 
-            this.btnMusteriCekCheckIn.CheckedState.Parent = this.btnMusteriCekCheckIn;
-            this.btnMusteriCekCheckIn.CustomImages.Parent = this.btnMusteriCekCheckIn;
             this.btnMusteriCekCheckIn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnMusteriCekCheckIn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnMusteriCekCheckIn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnMusteriCekCheckIn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnMusteriCekCheckIn.DisabledState.Parent = this.btnMusteriCekCheckIn;
             this.btnMusteriCekCheckIn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnMusteriCekCheckIn.ForeColor = System.Drawing.Color.White;
-            this.btnMusteriCekCheckIn.HoverState.Parent = this.btnMusteriCekCheckIn;
-            this.btnMusteriCekCheckIn.Location = new System.Drawing.Point(241, 93);
-            this.btnMusteriCekCheckIn.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMusteriCekCheckIn.Location = new System.Drawing.Point(181, 76);
             this.btnMusteriCekCheckIn.Name = "btnMusteriCekCheckIn";
-            this.btnMusteriCekCheckIn.ShadowDecoration.Parent = this.btnMusteriCekCheckIn;
-            this.btnMusteriCekCheckIn.Size = new System.Drawing.Size(103, 28);
+            this.btnMusteriCekCheckIn.Size = new System.Drawing.Size(77, 23);
             this.btnMusteriCekCheckIn.TabIndex = 36;
             this.btnMusteriCekCheckIn.Text = "Müşteri";
             this.btnMusteriCekCheckIn.Click += new System.EventHandler(this.btnMusteriCekCheckIn_Click);
@@ -88,10 +80,9 @@ namespace VeritabaniProje
             // guna2HtmlLabel10
             // 
             this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel10.Location = new System.Drawing.Point(69, 67);
-            this.guna2HtmlLabel10.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2HtmlLabel10.Location = new System.Drawing.Point(52, 54);
             this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
-            this.guna2HtmlLabel10.Size = new System.Drawing.Size(62, 18);
+            this.guna2HtmlLabel10.Size = new System.Drawing.Size(50, 15);
             this.guna2HtmlLabel10.TabIndex = 35;
             this.guna2HtmlLabel10.Text = "Kimlik No:";
             // 
@@ -103,33 +94,39 @@ namespace VeritabaniProje
             this.tbKimlikNoChechIn.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.tbKimlikNoChechIn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.tbKimlikNoChechIn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbKimlikNoChechIn.DisabledState.Parent = this.tbKimlikNoChechIn;
             this.tbKimlikNoChechIn.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.tbKimlikNoChechIn.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbKimlikNoChechIn.FocusedState.Parent = this.tbKimlikNoChechIn;
             this.tbKimlikNoChechIn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbKimlikNoChechIn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbKimlikNoChechIn.HoverState.Parent = this.tbKimlikNoChechIn;
-            this.tbKimlikNoChechIn.Location = new System.Drawing.Point(143, 56);
-            this.tbKimlikNoChechIn.Margin = new System.Windows.Forms.Padding(4);
+            this.tbKimlikNoChechIn.Location = new System.Drawing.Point(107, 46);
             this.tbKimlikNoChechIn.Name = "tbKimlikNoChechIn";
             this.tbKimlikNoChechIn.PasswordChar = '\0';
             this.tbKimlikNoChechIn.PlaceholderText = "";
             this.tbKimlikNoChechIn.SelectedText = "";
-            this.tbKimlikNoChechIn.ShadowDecoration.Parent = this.tbKimlikNoChechIn;
-            this.tbKimlikNoChechIn.Size = new System.Drawing.Size(200, 30);
+            this.tbKimlikNoChechIn.Size = new System.Drawing.Size(150, 24);
             this.tbKimlikNoChechIn.TabIndex = 34;
+            // 
+            // guna2HtmlLabel1
+            // 
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(409, 56);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(43, 15);
+            this.guna2HtmlLabel1.TabIndex = 37;
+            this.guna2HtmlLabel1.Text = "Oda No: ";
             // 
             // check_in
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(836, 450);
+            this.ClientSize = new System.Drawing.Size(627, 366);
+            this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.btnMusteriCekCheckIn);
             this.Controls.Add(this.guna2HtmlLabel10);
             this.Controls.Add(this.tbKimlikNoChechIn);
             this.Controls.Add(this.cbOda);
             this.Controls.Add(this.btnCheckIn);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "check_in";
             this.Text = "check_in";
             this.Load += new System.EventHandler(this.check_in_Load);
@@ -144,5 +141,6 @@ namespace VeritabaniProje
         private Guna.UI2.WinForms.Guna2Button btnMusteriCekCheckIn;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel10;
         private Guna.UI2.WinForms.Guna2TextBox tbKimlikNoChechIn;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
     }
 }
