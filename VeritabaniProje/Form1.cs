@@ -71,15 +71,10 @@ namespace VeritabaniProje
 
             if (rb_on_odeme.Checked == true)
             {
-                int onOdemeFiyat = guncelTabanFiyat * 75 / 100;
-
-                onOdemeFiyat *= gunSayisi;
-
-            }
-
-            if(rb_60.Checked == true)
-            {
-                
+                int onOdemeFiyat;
+                onOdemeFiyat = taban_fiyat * 75 / 100;
+                string kayit = "select taban_fiyat from tblOda where taban_fiyat = @taban_fiyat";
+                SqlParameter pr1 = new SqlParameter("taban_fiyat")
             }
 
             if (rb_std.Checked == true)
