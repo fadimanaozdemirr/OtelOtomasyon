@@ -62,30 +62,48 @@ namespace VeritabaniProje
         {
             var giris = girisTarihi.Value;
             var cikis = cikisTarihi.Value;
-
+            // .ToString("yyyy-MM-dd hh:mm:ss")
             var gunSayisi = cikis.Day - giris.Day;
-
+            //var aradakiFark = giris.Day - DateTime.Now.Day;
             string sorgu = "SELECT taban_fiyat FROM tblOda";
             int guncelTabanFiyat = DbManager.Instance().guncelTabanFiyat(sorgu);
-
-
+            int musteri_id = musteriId();
+            int toplamFiyat = 0;
+            int rezervasyonId = 0;
             if (rb_on_odeme.Checked == true)
             {
-                int onOdemeFiyat;
-                onOdemeFiyat = taban_fiyat * 75 / 100;
-                string kayit = "select taban_fiyat from tblOda where taban_fiyat = @taban_fiyat";
-                SqlParameter pr1 = new SqlParameter("taban_fiyat")
+                toplamFiyat = guncelTabanFiyat * 75 / 100;
+                rezervasyonId = 1;
+                /*
+                if(aradakiFark < 90)
+                {
+                    MessageBox.Show("En az 90 gün olmalı");
+                }
+                else
+                {
+                    toplamFiyat = guncelTabanFiyat * 75 / 100;
+                    rezervasyonId = 1;
+                }*/
             }
 
-            if (rb_std.Checked == true)
+            else if (rb_std.Checked == true)
+            {
+                toplamFiyat = guncelTabanFiyat;
+                rezervasyonId = 2;
+
+            }
+
+            else if (rb_60.Checked == true)
             {
 
             }
+            
+            string rezervasyonEkleSorgu = "INSERT INTO tblRezervasyon (musteri_id, rezervasyon_tip_id, baslangic_tarih, cikis_tarih, " +
+                "toplam_fiyat, gun_sayisi) values " +
+                $"({musteri_id}, {rezervasyonId}, '{giris.ToString("yyyy-MM-dd hh:mm:ss")}', '{cikis.ToString("yyyy-MM-dd hh:mm:ss")}', {toplamFiyat}, {gunSayisi})";
 
-            if (rb_tesvik.Checked == true)
-            {
-
-            }
+            DbManager.Instance().veritabaniKomut(rezervasyonEkleSorgu);
+            //MessageBox.Show(toplamFiyat.ToString());
             MessageBox.Show("Rezervasyonunuz Oluşturulmuştur.");
             this.Hide();
             PersonelEkranics pe = new PersonelEkranics();
@@ -108,17 +126,13 @@ namespace VeritabaniProje
             {
                 guna2Panel2.Hide();
             }
+            
         }
 
         private void btnMusteriCek_Click(object sender, EventArgs e)
         {
-            string kimlik_no = tbKimlikNoRezervasyon.Text;
-
-            string komut = $"SELECT musteri_id FROM tblMusteri WHERE kimlik_no = '{kimlik_no}' ";
-
-            int musteri_id = DbManager.Instance().musteriCek(komut, kimlik_no);
-
-            if(musteri_id == 0)
+            int musteri_id = musteriId();
+            if (musteri_id == 0)
             {
                 MessageBox.Show("Kimlik no yanlış");
             }
@@ -126,8 +140,16 @@ namespace VeritabaniProje
             {
                 MessageBox.Show(musteri_id.ToString());
             }
+        }
+        private int musteriId()
+        {
+            string kimlik_no = tbKimlikNoRezervasyon.Text;
 
-            
+            string komut = $"SELECT musteri_id FROM tblMusteri WHERE kimlik_no = '{kimlik_no}' ";
+
+            int musteri_id = DbManager.Instance().musteriCek(komut, kimlik_no);
+
+            return musteri_id;
         }
     }
 }

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 namespace VeritabaniProje
 {
     public class DbManager
@@ -75,5 +76,26 @@ namespace VeritabaniProje
             return tabanFiyat;
         }
 
+        public void odaListe(string komut, ComboBox cbOda)
+        {
+            //List<Oda> odaList = new List<Oda>();
+
+            using (SqlConnection baglanti = sqlBaglanti.connection())
+            {
+                using (SqlCommand command = new SqlCommand(komut, baglanti))
+                {
+
+                    SqlDataReader reader = command.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        cbOda.Items.Add(Convert.ToInt32(reader["numara"]));
+                    }
+
+                    baglanti.Close();
+                }
+            }
+
+            
+        }
     }
 }

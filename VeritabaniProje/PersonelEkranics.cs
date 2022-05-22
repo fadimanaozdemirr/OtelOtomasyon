@@ -33,7 +33,9 @@ namespace VeritabaniProje
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-
+            check_in check_in = new check_in();
+            check_in.Show();
+            this.Hide();
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)

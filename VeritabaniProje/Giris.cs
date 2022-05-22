@@ -40,7 +40,10 @@ namespace VeritabaniProje
             {
                 if (rbAdmin.Checked)
                 {
-                  
+                    AdminPaneli adminPaneli = new AdminPaneli();
+                    adminPaneli.Show();
+                    this.Hide();
+
 
                 }
                 else if (rbPersonel.Checked)

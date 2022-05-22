@@ -19,7 +19,45 @@ namespace VeritabaniProje
 
         private void check_in_Load(object sender, EventArgs e)
         {
+            string sorgu = "SELECT numara FROM tblOda WHERE durum = 'false' ";
+            DbManager.Instance().odaListe(sorgu, cbOda);
+        }
 
+        private int musteriId()
+        {
+            string kimlik_no = tbKimlikNoChechIn.Text;
+
+            string komut = $"SELECT musteri_id FROM tblMusteri WHERE kimlik_no = '{kimlik_no}' ";
+
+            int musteri_id = DbManager.Instance().musteriCek(komut, kimlik_no);
+
+            return musteri_id;
+        }
+
+        private void btnMusteriCekCheckIn_Click(object sender, EventArgs e)
+        {
+            int musteri_id = musteriId();
+
+            Console.WriteLine(musteri_id);
+        }
+
+        private void btnCheckIn_Click(object sender, EventArgs e)
+        {
+            //MessageBox.Show(cbOda.Text);
+
+            /* 
+             
+            UPDATE tblRezervasyon SET oda_id = {cbOda.Text} WHERE musteri_id = {musteri_id}
+             
+             */
+            int odaNumarasi = Convert.ToInt32(cbOda.Text);
+            string komut = $"UPDATE tblRezervasyon SET oda_id = {odaNumarasi} WHERE musteri_id = {musteriId()}";
+
+            DbManager.Instance().veritabaniKomut(komut);
+
+            string komutOdaDurum = $"UPDATE tblOda SET durum = {1} WHERE numara = {odaNumarasi}";
+
+            DbManager.Instance().veritabaniKomut(komutOdaDurum);
         }
     }
 }

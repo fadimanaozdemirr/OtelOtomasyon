@@ -53,8 +53,6 @@ namespace VeritabaniProje
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.tbKimlikNoRezervasyon = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -79,9 +77,10 @@ namespace VeritabaniProje
             this.guna2Panel1.Controls.Add(this.guna2PictureBox1);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(332, 457);
+            this.guna2Panel1.Size = new System.Drawing.Size(443, 562);
             this.guna2Panel1.TabIndex = 0;
             // 
             // guna2PictureBox1
@@ -90,9 +89,10 @@ namespace VeritabaniProje
             this.guna2PictureBox1.Image = global::VeritabaniProje.Properties.Resources.beautiful_luxury_outdoor_swimming_pool_hotel_resort;
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(577, 457);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(769, 562);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
@@ -102,9 +102,10 @@ namespace VeritabaniProje
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(100)))), ((int)(((byte)(55)))));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(464, 32);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(619, 39);
+            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(220, 26);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(277, 32);
             this.guna2HtmlLabel1.TabIndex = 1;
             this.guna2HtmlLabel1.Text = "OTEL REZERVASYON";
             // 
@@ -115,27 +116,30 @@ namespace VeritabaniProje
             this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(100)))), ((int)(((byte)(55)))));
             this.guna2ControlBox1.HoverState.Parent = this.guna2ControlBox1;
             this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(841, 8);
+            this.guna2ControlBox1.Location = new System.Drawing.Point(1121, 10);
+            this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.ShadowDecoration.Parent = this.guna2ControlBox1;
-            this.guna2ControlBox1.Size = new System.Drawing.Size(31, 27);
+            this.guna2ControlBox1.Size = new System.Drawing.Size(41, 33);
             this.guna2ControlBox1.TabIndex = 2;
             // 
             // guna2HtmlLabel4
             // 
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(347, 298);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(463, 367);
+            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(55, 15);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(70, 18);
             this.guna2HtmlLabel4.TabIndex = 5;
             this.guna2HtmlLabel4.Text = "Giriş Tarihi:";
             // 
             // guna2HtmlLabel5
             // 
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(347, 330);
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(463, 406);
+            this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(57, 15);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(72, 18);
             this.guna2HtmlLabel5.TabIndex = 6;
             this.guna2HtmlLabel5.Text = "Çıkış Tarihi:";
             // 
@@ -148,12 +152,13 @@ namespace VeritabaniProje
             this.girisTarihi.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.girisTarihi.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.girisTarihi.HoverState.Parent = this.girisTarihi;
-            this.girisTarihi.Location = new System.Drawing.Point(418, 291);
+            this.girisTarihi.Location = new System.Drawing.Point(557, 358);
+            this.girisTarihi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.girisTarihi.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.girisTarihi.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.girisTarihi.Name = "girisTarihi";
             this.girisTarihi.ShadowDecoration.Parent = this.girisTarihi;
-            this.girisTarihi.Size = new System.Drawing.Size(172, 26);
+            this.girisTarihi.Size = new System.Drawing.Size(229, 32);
             this.girisTarihi.TabIndex = 13;
             this.girisTarihi.Value = new System.DateTime(2022, 5, 9, 21, 51, 15, 142);
             this.girisTarihi.ValueChanged += new System.EventHandler(this.guna2DateTimePicker1_ValueChanged);
@@ -167,12 +172,13 @@ namespace VeritabaniProje
             this.cikisTarihi.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.cikisTarihi.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.cikisTarihi.HoverState.Parent = this.cikisTarihi;
-            this.cikisTarihi.Location = new System.Drawing.Point(418, 325);
+            this.cikisTarihi.Location = new System.Drawing.Point(557, 400);
+            this.cikisTarihi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cikisTarihi.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.cikisTarihi.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.cikisTarihi.Name = "cikisTarihi";
             this.cikisTarihi.ShadowDecoration.Parent = this.cikisTarihi;
-            this.cikisTarihi.Size = new System.Drawing.Size(172, 26);
+            this.cikisTarihi.Size = new System.Drawing.Size(229, 32);
             this.cikisTarihi.TabIndex = 14;
             this.cikisTarihi.Value = new System.DateTime(2022, 5, 9, 21, 51, 15, 142);
             this.cikisTarihi.ValueChanged += new System.EventHandler(this.guna2DateTimePicker2_ValueChanged);
@@ -182,9 +188,10 @@ namespace VeritabaniProje
             this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(100)))), ((int)(((byte)(55)))));
-            this.guna2HtmlLabel8.Location = new System.Drawing.Point(390, 73);
+            this.guna2HtmlLabel8.Location = new System.Drawing.Point(520, 90);
+            this.guna2HtmlLabel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(126, 20);
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(159, 25);
             this.guna2HtmlLabel8.TabIndex = 15;
             this.guna2HtmlLabel8.Text = "Rezervasyon Tipi:";
             // 
@@ -196,9 +203,10 @@ namespace VeritabaniProje
             this.rb_on_odeme.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.rb_on_odeme.CheckedState.InnerColor = System.Drawing.Color.White;
             this.rb_on_odeme.CheckedState.InnerOffset = -4;
-            this.rb_on_odeme.Location = new System.Drawing.Point(390, 119);
+            this.rb_on_odeme.Location = new System.Drawing.Point(520, 146);
+            this.rb_on_odeme.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rb_on_odeme.Name = "rb_on_odeme";
-            this.rb_on_odeme.Size = new System.Drawing.Size(145, 17);
+            this.rb_on_odeme.Size = new System.Drawing.Size(191, 21);
             this.rb_on_odeme.TabIndex = 16;
             this.rb_on_odeme.Text = "Ön Ödemeli Rezervasyon";
             this.rb_on_odeme.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -215,9 +223,10 @@ namespace VeritabaniProje
             this.rb_60.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.rb_60.CheckedState.InnerColor = System.Drawing.Color.White;
             this.rb_60.CheckedState.InnerOffset = -4;
-            this.rb_60.Location = new System.Drawing.Point(390, 159);
+            this.rb_60.Location = new System.Drawing.Point(520, 196);
+            this.rb_60.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rb_60.Name = "rb_60";
-            this.rb_60.Size = new System.Drawing.Size(172, 17);
+            this.rb_60.Size = new System.Drawing.Size(225, 21);
             this.rb_60.TabIndex = 17;
             this.rb_60.Text = "60 Gün Önceden Rezervasyon";
             this.rb_60.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -234,9 +243,10 @@ namespace VeritabaniProje
             this.rb_std.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.rb_std.CheckedState.InnerColor = System.Drawing.Color.White;
             this.rb_std.CheckedState.InnerOffset = -4;
-            this.rb_std.Location = new System.Drawing.Point(390, 198);
+            this.rb_std.Location = new System.Drawing.Point(520, 244);
+            this.rb_std.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rb_std.Name = "rb_std";
-            this.rb_std.Size = new System.Drawing.Size(130, 17);
+            this.rb_std.Size = new System.Drawing.Size(170, 21);
             this.rb_std.TabIndex = 18;
             this.rb_std.Text = "Standart Rezervasyon";
             this.rb_std.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -253,9 +263,10 @@ namespace VeritabaniProje
             this.rb_tesvik.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.rb_tesvik.CheckedState.InnerColor = System.Drawing.Color.White;
             this.rb_tesvik.CheckedState.InnerOffset = -4;
-            this.rb_tesvik.Location = new System.Drawing.Point(390, 236);
+            this.rb_tesvik.Location = new System.Drawing.Point(520, 290);
+            this.rb_tesvik.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rb_tesvik.Name = "rb_tesvik";
-            this.rb_tesvik.Size = new System.Drawing.Size(122, 17);
+            this.rb_tesvik.Size = new System.Drawing.Size(157, 21);
             this.rb_tesvik.TabIndex = 19;
             this.rb_tesvik.Text = "Teşvik Rezervasyon";
             this.rb_tesvik.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -277,10 +288,11 @@ namespace VeritabaniProje
             this.btn_rezervasyon.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_rezervasyon.ForeColor = System.Drawing.Color.White;
             this.btn_rezervasyon.HoverState.Parent = this.btn_rezervasyon;
-            this.btn_rezervasyon.Location = new System.Drawing.Point(661, 392);
+            this.btn_rezervasyon.Location = new System.Drawing.Point(881, 482);
+            this.btn_rezervasyon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_rezervasyon.Name = "btn_rezervasyon";
             this.btn_rezervasyon.ShadowDecoration.Parent = this.btn_rezervasyon;
-            this.btn_rezervasyon.Size = new System.Drawing.Size(121, 33);
+            this.btn_rezervasyon.Size = new System.Drawing.Size(161, 41);
             this.btn_rezervasyon.TabIndex = 20;
             this.btn_rezervasyon.Text = "Rezervasyon Yap";
             this.btn_rezervasyon.Click += new System.EventHandler(this.guna2Button1_Click);
@@ -290,36 +302,40 @@ namespace VeritabaniProje
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(100)))), ((int)(((byte)(55)))));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(66, 12);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(88, 15);
+            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(92, 20);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(114, 25);
             this.guna2HtmlLabel2.TabIndex = 21;
             this.guna2HtmlLabel2.Text = "Kart Bilgileri:";
             // 
             // guna2HtmlLabel3
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(8, 54);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(11, 66);
+            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(42, 15);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(50, 18);
             this.guna2HtmlLabel3.TabIndex = 22;
             this.guna2HtmlLabel3.Text = "Kart No:";
             // 
             // guna2HtmlLabel6
             // 
             this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(8, 98);
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(11, 121);
+            this.guna2HtmlLabel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(27, 15);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(32, 18);
             this.guna2HtmlLabel6.TabIndex = 23;
             this.guna2HtmlLabel6.Text = "SKT:";
             // 
             // guna2HtmlLabel7
             // 
             this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(8, 135);
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(11, 166);
+            this.guna2HtmlLabel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(27, 15);
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(33, 18);
             this.guna2HtmlLabel7.TabIndex = 24;
             this.guna2HtmlLabel7.Text = "CVV:";
             // 
@@ -338,13 +354,14 @@ namespace VeritabaniProje
             this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Location = new System.Drawing.Point(51, 49);
+            this.guna2TextBox1.Location = new System.Drawing.Point(68, 60);
+            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderText = "";
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Size = new System.Drawing.Size(150, 24);
+            this.guna2TextBox1.Size = new System.Drawing.Size(200, 30);
             this.guna2TextBox1.TabIndex = 25;
             this.guna2TextBox1.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
             // 
@@ -363,13 +380,14 @@ namespace VeritabaniProje
             this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox2.HoverState.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Location = new System.Drawing.Point(51, 128);
+            this.guna2TextBox2.Location = new System.Drawing.Point(68, 158);
+            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
             this.guna2TextBox2.PlaceholderText = "";
             this.guna2TextBox2.SelectedText = "";
             this.guna2TextBox2.ShadowDecoration.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Size = new System.Drawing.Size(150, 24);
+            this.guna2TextBox2.Size = new System.Drawing.Size(200, 30);
             this.guna2TextBox2.TabIndex = 26;
             this.guna2TextBox2.TextChanged += new System.EventHandler(this.guna2TextBox2_TextChanged);
             // 
@@ -388,67 +406,32 @@ namespace VeritabaniProje
             this.guna2TextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox3.HoverState.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.Location = new System.Drawing.Point(51, 89);
+            this.guna2TextBox3.Location = new System.Drawing.Point(68, 110);
+            this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2TextBox3.Name = "guna2TextBox3";
             this.guna2TextBox3.PasswordChar = '\0';
             this.guna2TextBox3.PlaceholderText = "";
             this.guna2TextBox3.SelectedText = "";
             this.guna2TextBox3.ShadowDecoration.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.Size = new System.Drawing.Size(26, 24);
+            this.guna2TextBox3.Size = new System.Drawing.Size(86, 30);
             this.guna2TextBox3.TabIndex = 27;
             this.guna2TextBox3.TextChanged += new System.EventHandler(this.guna2TextBox3_TextChanged);
-            // 
-            // guna2TextBox4
-            // 
-            this.guna2TextBox4.BorderRadius = 5;
-            this.guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox4.DefaultText = "";
-            this.guna2TextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox4.DisabledState.Parent = this.guna2TextBox4;
-            this.guna2TextBox4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.FocusedState.Parent = this.guna2TextBox4;
-            this.guna2TextBox4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.HoverState.Parent = this.guna2TextBox4;
-            this.guna2TextBox4.Location = new System.Drawing.Point(92, 89);
-            this.guna2TextBox4.Name = "guna2TextBox4";
-            this.guna2TextBox4.PasswordChar = '\0';
-            this.guna2TextBox4.PlaceholderText = "";
-            this.guna2TextBox4.SelectedText = "";
-            this.guna2TextBox4.ShadowDecoration.Parent = this.guna2TextBox4;
-            this.guna2TextBox4.Size = new System.Drawing.Size(22, 24);
-            this.guna2TextBox4.TabIndex = 28;
-            this.guna2TextBox4.TextChanged += new System.EventHandler(this.guna2TextBox4_TextChanged);
-            // 
-            // guna2HtmlLabel9
-            // 
-            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.guna2HtmlLabel9.Location = new System.Drawing.Point(81, 89);
-            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(8, 24);
-            this.guna2HtmlLabel9.TabIndex = 29;
-            this.guna2HtmlLabel9.Text = "/";
             // 
             // guna2Panel2
             // 
             this.guna2Panel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel2.Controls.Add(this.guna2HtmlLabel2);
-            this.guna2Panel2.Controls.Add(this.guna2HtmlLabel9);
             this.guna2Panel2.Controls.Add(this.guna2HtmlLabel3);
-            this.guna2Panel2.Controls.Add(this.guna2TextBox4);
             this.guna2Panel2.Controls.Add(this.guna2HtmlLabel6);
             this.guna2Panel2.Controls.Add(this.guna2TextBox3);
             this.guna2Panel2.Controls.Add(this.guna2HtmlLabel7);
             this.guna2Panel2.Controls.Add(this.guna2TextBox2);
             this.guna2Panel2.Controls.Add(this.guna2TextBox1);
-            this.guna2Panel2.Location = new System.Drawing.Point(615, 198);
+            this.guna2Panel2.Location = new System.Drawing.Point(820, 244);
+            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
-            this.guna2Panel2.Size = new System.Drawing.Size(213, 165);
+            this.guna2Panel2.Size = new System.Drawing.Size(284, 203);
             this.guna2Panel2.TabIndex = 30;
             // 
             // tbKimlikNoRezervasyon
@@ -466,21 +449,23 @@ namespace VeritabaniProje
             this.tbKimlikNoRezervasyon.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbKimlikNoRezervasyon.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbKimlikNoRezervasyon.HoverState.Parent = this.tbKimlikNoRezervasyon;
-            this.tbKimlikNoRezervasyon.Location = new System.Drawing.Point(661, 83);
+            this.tbKimlikNoRezervasyon.Location = new System.Drawing.Point(881, 102);
+            this.tbKimlikNoRezervasyon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbKimlikNoRezervasyon.Name = "tbKimlikNoRezervasyon";
             this.tbKimlikNoRezervasyon.PasswordChar = '\0';
             this.tbKimlikNoRezervasyon.PlaceholderText = "";
             this.tbKimlikNoRezervasyon.SelectedText = "";
             this.tbKimlikNoRezervasyon.ShadowDecoration.Parent = this.tbKimlikNoRezervasyon;
-            this.tbKimlikNoRezervasyon.Size = new System.Drawing.Size(150, 24);
+            this.tbKimlikNoRezervasyon.Size = new System.Drawing.Size(200, 30);
             this.tbKimlikNoRezervasyon.TabIndex = 31;
             // 
             // guna2HtmlLabel10
             // 
             this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel10.Location = new System.Drawing.Point(605, 92);
+            this.guna2HtmlLabel10.Location = new System.Drawing.Point(807, 113);
+            this.guna2HtmlLabel10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
-            this.guna2HtmlLabel10.Size = new System.Drawing.Size(50, 15);
+            this.guna2HtmlLabel10.Size = new System.Drawing.Size(62, 18);
             this.guna2HtmlLabel10.TabIndex = 32;
             this.guna2HtmlLabel10.Text = "Kimlik No:";
             // 
@@ -496,19 +481,20 @@ namespace VeritabaniProje
             this.btnMusteriCek.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnMusteriCek.ForeColor = System.Drawing.Color.White;
             this.btnMusteriCek.HoverState.Parent = this.btnMusteriCek;
-            this.btnMusteriCek.Location = new System.Drawing.Point(734, 113);
+            this.btnMusteriCek.Location = new System.Drawing.Point(979, 139);
+            this.btnMusteriCek.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMusteriCek.Name = "btnMusteriCek";
             this.btnMusteriCek.ShadowDecoration.Parent = this.btnMusteriCek;
-            this.btnMusteriCek.Size = new System.Drawing.Size(77, 23);
+            this.btnMusteriCek.Size = new System.Drawing.Size(103, 28);
             this.btnMusteriCek.TabIndex = 33;
             this.btnMusteriCek.Text = "Müşteri";
             this.btnMusteriCek.Click += new System.EventHandler(this.btnMusteriCek_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(880, 457);
+            this.ClientSize = new System.Drawing.Size(1173, 562);
             this.Controls.Add(this.btnMusteriCek);
             this.Controls.Add(this.guna2HtmlLabel10);
             this.Controls.Add(this.tbKimlikNoRezervasyon);
@@ -527,6 +513,7 @@ namespace VeritabaniProje
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -557,8 +544,6 @@ namespace VeritabaniProje
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel9;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;

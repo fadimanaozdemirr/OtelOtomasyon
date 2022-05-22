@@ -29,109 +29,120 @@ namespace VeritabaniProje
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
+            this.btnCheckIn = new Guna.UI2.WinForms.Guna2Button();
+            this.cbOda = new System.Windows.Forms.ComboBox();
+            this.btnMusteriCekCheckIn = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.tbKimlikNoChechIn = new Guna.UI2.WinForms.Guna2TextBox();
             this.SuspendLayout();
             // 
-            // guna2DataGridView1
+            // btnCheckIn
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.guna2DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.guna2DataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.guna2DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
-            this.guna2DataGridView1.EnableHeadersVisualStyles = false;
-            this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(154, 34);
-            this.guna2DataGridView1.Name = "guna2DataGridView1";
-            this.guna2DataGridView1.RowHeadersVisible = false;
-            this.guna2DataGridView1.RowHeadersWidth = 51;
-            this.guna2DataGridView1.RowTemplate.Height = 24;
-            this.guna2DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(403, 197);
-            this.guna2DataGridView1.TabIndex = 0;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4;
-            this.guna2DataGridView1.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 24;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.btnCheckIn.CheckedState.Parent = this.btnCheckIn;
+            this.btnCheckIn.CustomImages.Parent = this.btnCheckIn;
+            this.btnCheckIn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCheckIn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCheckIn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCheckIn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCheckIn.DisabledState.Parent = this.btnCheckIn;
+            this.btnCheckIn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnCheckIn.ForeColor = System.Drawing.Color.White;
+            this.btnCheckIn.HoverState.Parent = this.btnCheckIn;
+            this.btnCheckIn.Location = new System.Drawing.Point(304, 214);
+            this.btnCheckIn.Name = "btnCheckIn";
+            this.btnCheckIn.ShadowDecoration.Parent = this.btnCheckIn;
+            this.btnCheckIn.Size = new System.Drawing.Size(180, 45);
+            this.btnCheckIn.TabIndex = 1;
+            this.btnCheckIn.Text = "Check-In";
+            this.btnCheckIn.Click += new System.EventHandler(this.btnCheckIn_Click);
             // 
-            // guna2Button1
+            // cbOda
             // 
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.DisabledState.Parent = this.guna2Button1;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(620, 241);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(180, 45);
-            this.guna2Button1.TabIndex = 1;
-            this.guna2Button1.Text = "guna2Button1";
+            this.cbOda.FormattingEnabled = true;
+            this.cbOda.Location = new System.Drawing.Point(609, 61);
+            this.cbOda.Name = "cbOda";
+            this.cbOda.Size = new System.Drawing.Size(191, 24);
+            this.cbOda.TabIndex = 2;
+            // 
+            // btnMusteriCekCheckIn
+            // 
+            this.btnMusteriCekCheckIn.CheckedState.Parent = this.btnMusteriCekCheckIn;
+            this.btnMusteriCekCheckIn.CustomImages.Parent = this.btnMusteriCekCheckIn;
+            this.btnMusteriCekCheckIn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnMusteriCekCheckIn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnMusteriCekCheckIn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnMusteriCekCheckIn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnMusteriCekCheckIn.DisabledState.Parent = this.btnMusteriCekCheckIn;
+            this.btnMusteriCekCheckIn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnMusteriCekCheckIn.ForeColor = System.Drawing.Color.White;
+            this.btnMusteriCekCheckIn.HoverState.Parent = this.btnMusteriCekCheckIn;
+            this.btnMusteriCekCheckIn.Location = new System.Drawing.Point(241, 93);
+            this.btnMusteriCekCheckIn.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMusteriCekCheckIn.Name = "btnMusteriCekCheckIn";
+            this.btnMusteriCekCheckIn.ShadowDecoration.Parent = this.btnMusteriCekCheckIn;
+            this.btnMusteriCekCheckIn.Size = new System.Drawing.Size(103, 28);
+            this.btnMusteriCekCheckIn.TabIndex = 36;
+            this.btnMusteriCekCheckIn.Text = "Müşteri";
+            this.btnMusteriCekCheckIn.Click += new System.EventHandler(this.btnMusteriCekCheckIn_Click);
+            // 
+            // guna2HtmlLabel10
+            // 
+            this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel10.Location = new System.Drawing.Point(69, 67);
+            this.guna2HtmlLabel10.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
+            this.guna2HtmlLabel10.Size = new System.Drawing.Size(62, 18);
+            this.guna2HtmlLabel10.TabIndex = 35;
+            this.guna2HtmlLabel10.Text = "Kimlik No:";
+            // 
+            // tbKimlikNoChechIn
+            // 
+            this.tbKimlikNoChechIn.BorderRadius = 5;
+            this.tbKimlikNoChechIn.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tbKimlikNoChechIn.DefaultText = "";
+            this.tbKimlikNoChechIn.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tbKimlikNoChechIn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tbKimlikNoChechIn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tbKimlikNoChechIn.DisabledState.Parent = this.tbKimlikNoChechIn;
+            this.tbKimlikNoChechIn.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tbKimlikNoChechIn.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tbKimlikNoChechIn.FocusedState.Parent = this.tbKimlikNoChechIn;
+            this.tbKimlikNoChechIn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tbKimlikNoChechIn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tbKimlikNoChechIn.HoverState.Parent = this.tbKimlikNoChechIn;
+            this.tbKimlikNoChechIn.Location = new System.Drawing.Point(143, 56);
+            this.tbKimlikNoChechIn.Margin = new System.Windows.Forms.Padding(4);
+            this.tbKimlikNoChechIn.Name = "tbKimlikNoChechIn";
+            this.tbKimlikNoChechIn.PasswordChar = '\0';
+            this.tbKimlikNoChechIn.PlaceholderText = "";
+            this.tbKimlikNoChechIn.SelectedText = "";
+            this.tbKimlikNoChechIn.ShadowDecoration.Parent = this.tbKimlikNoChechIn;
+            this.tbKimlikNoChechIn.Size = new System.Drawing.Size(200, 30);
+            this.tbKimlikNoChechIn.TabIndex = 34;
             // 
             // check_in
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(836, 450);
-            this.Controls.Add(this.guna2Button1);
-            this.Controls.Add(this.guna2DataGridView1);
+            this.Controls.Add(this.btnMusteriCekCheckIn);
+            this.Controls.Add(this.guna2HtmlLabel10);
+            this.Controls.Add(this.tbKimlikNoChechIn);
+            this.Controls.Add(this.cbOda);
+            this.Controls.Add(this.btnCheckIn);
             this.Name = "check_in";
             this.Text = "check_in";
             this.Load += new System.EventHandler(this.check_in_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btnCheckIn;
+        private System.Windows.Forms.ComboBox cbOda;
+        private Guna.UI2.WinForms.Guna2Button btnMusteriCekCheckIn;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel10;
+        private Guna.UI2.WinForms.Guna2TextBox tbKimlikNoChechIn;
     }
 }
