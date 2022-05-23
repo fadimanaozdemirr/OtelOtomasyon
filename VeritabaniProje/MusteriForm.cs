@@ -56,8 +56,17 @@ namespace VeritabaniProje
             this.Hide();
             PersonelEkranics personel = new PersonelEkranics();
             personel.Show();
+        }
 
+        private void musteriler()
+        {
+            string komut = "SELECT * FROM tblMusteri";
+            DbManager.Instance().musteriGridDoldur(komut, dgMusteri);
+        }
 
+        private void MusteriForm_Load(object sender, EventArgs e)
+        {
+            musteriler();
         }
     }
 }

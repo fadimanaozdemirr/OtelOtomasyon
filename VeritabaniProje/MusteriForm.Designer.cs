@@ -29,9 +29,9 @@ namespace VeritabaniProje
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tbMusteriAd = new Guna.UI2.WinForms.Guna2TextBox();
             this.tbMusteriSoyad = new Guna.UI2.WinForms.Guna2TextBox();
             this.tbKimlikNo = new Guna.UI2.WinForms.Guna2TextBox();
@@ -58,19 +58,15 @@ namespace VeritabaniProje
             this.tbMusteriAd.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.tbMusteriAd.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.tbMusteriAd.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbMusteriAd.DisabledState.Parent = this.tbMusteriAd;
             this.tbMusteriAd.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.tbMusteriAd.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbMusteriAd.FocusedState.Parent = this.tbMusteriAd;
             this.tbMusteriAd.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbMusteriAd.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbMusteriAd.HoverState.Parent = this.tbMusteriAd;
             this.tbMusteriAd.Location = new System.Drawing.Point(142, 11);
             this.tbMusteriAd.Name = "tbMusteriAd";
             this.tbMusteriAd.PasswordChar = '\0';
             this.tbMusteriAd.PlaceholderText = "";
             this.tbMusteriAd.SelectedText = "";
-            this.tbMusteriAd.ShadowDecoration.Parent = this.tbMusteriAd;
             this.tbMusteriAd.Size = new System.Drawing.Size(181, 32);
             this.tbMusteriAd.TabIndex = 9;
             // 
@@ -82,19 +78,15 @@ namespace VeritabaniProje
             this.tbMusteriSoyad.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.tbMusteriSoyad.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.tbMusteriSoyad.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbMusteriSoyad.DisabledState.Parent = this.tbMusteriSoyad;
             this.tbMusteriSoyad.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.tbMusteriSoyad.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbMusteriSoyad.FocusedState.Parent = this.tbMusteriSoyad;
             this.tbMusteriSoyad.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbMusteriSoyad.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbMusteriSoyad.HoverState.Parent = this.tbMusteriSoyad;
             this.tbMusteriSoyad.Location = new System.Drawing.Point(142, 59);
             this.tbMusteriSoyad.Name = "tbMusteriSoyad";
             this.tbMusteriSoyad.PasswordChar = '\0';
             this.tbMusteriSoyad.PlaceholderText = "";
             this.tbMusteriSoyad.SelectedText = "";
-            this.tbMusteriSoyad.ShadowDecoration.Parent = this.tbMusteriSoyad;
             this.tbMusteriSoyad.Size = new System.Drawing.Size(181, 32);
             this.tbMusteriSoyad.TabIndex = 9;
             // 
@@ -106,19 +98,15 @@ namespace VeritabaniProje
             this.tbKimlikNo.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.tbKimlikNo.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.tbKimlikNo.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbKimlikNo.DisabledState.Parent = this.tbKimlikNo;
             this.tbKimlikNo.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.tbKimlikNo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbKimlikNo.FocusedState.Parent = this.tbKimlikNo;
             this.tbKimlikNo.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbKimlikNo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbKimlikNo.HoverState.Parent = this.tbKimlikNo;
             this.tbKimlikNo.Location = new System.Drawing.Point(142, 108);
             this.tbKimlikNo.Name = "tbKimlikNo";
             this.tbKimlikNo.PasswordChar = '\0';
             this.tbKimlikNo.PlaceholderText = "";
             this.tbKimlikNo.SelectedText = "";
-            this.tbKimlikNo.ShadowDecoration.Parent = this.tbKimlikNo;
             this.tbKimlikNo.Size = new System.Drawing.Size(181, 32);
             this.tbKimlikNo.TabIndex = 10;
             // 
@@ -130,19 +118,15 @@ namespace VeritabaniProje
             this.tbTelefon.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.tbTelefon.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.tbTelefon.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbTelefon.DisabledState.Parent = this.tbTelefon;
             this.tbTelefon.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.tbTelefon.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbTelefon.FocusedState.Parent = this.tbTelefon;
             this.tbTelefon.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbTelefon.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbTelefon.HoverState.Parent = this.tbTelefon;
             this.tbTelefon.Location = new System.Drawing.Point(142, 158);
             this.tbTelefon.Name = "tbTelefon";
             this.tbTelefon.PasswordChar = '\0';
             this.tbTelefon.PlaceholderText = "";
             this.tbTelefon.SelectedText = "";
-            this.tbTelefon.ShadowDecoration.Parent = this.tbTelefon;
             this.tbTelefon.Size = new System.Drawing.Size(181, 32);
             this.tbTelefon.TabIndex = 11;
             // 
@@ -154,19 +138,15 @@ namespace VeritabaniProje
             this.tbEposta.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.tbEposta.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.tbEposta.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbEposta.DisabledState.Parent = this.tbEposta;
             this.tbEposta.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.tbEposta.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbEposta.FocusedState.Parent = this.tbEposta;
             this.tbEposta.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tbEposta.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbEposta.HoverState.Parent = this.tbEposta;
             this.tbEposta.Location = new System.Drawing.Point(142, 210);
             this.tbEposta.Name = "tbEposta";
             this.tbEposta.PasswordChar = '\0';
             this.tbEposta.PlaceholderText = "";
             this.tbEposta.SelectedText = "";
-            this.tbEposta.ShadowDecoration.Parent = this.tbEposta;
             this.tbEposta.Size = new System.Drawing.Size(181, 32);
             this.tbEposta.TabIndex = 12;
             // 
@@ -175,7 +155,7 @@ namespace VeritabaniProje
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(99, 20);
-            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(27, 22);
             this.guna2HtmlLabel1.TabIndex = 13;
@@ -186,7 +166,7 @@ namespace VeritabaniProje
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(75, 69);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(52, 22);
             this.guna2HtmlLabel2.TabIndex = 14;
@@ -197,7 +177,7 @@ namespace VeritabaniProje
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(56, 118);
-            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(71, 22);
             this.guna2HtmlLabel3.TabIndex = 15;
@@ -208,7 +188,7 @@ namespace VeritabaniProje
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.guna2HtmlLabel4.Location = new System.Drawing.Point(68, 168);
-            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(60, 22);
             this.guna2HtmlLabel4.TabIndex = 16;
@@ -219,7 +199,7 @@ namespace VeritabaniProje
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(65, 219);
-            this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
             this.guna2HtmlLabel5.Size = new System.Drawing.Size(64, 22);
             this.guna2HtmlLabel5.TabIndex = 17;
@@ -228,20 +208,15 @@ namespace VeritabaniProje
             // btnMusteriEkle
             // 
             this.btnMusteriEkle.BorderRadius = 5;
-            this.btnMusteriEkle.CheckedState.Parent = this.btnMusteriEkle;
-            this.btnMusteriEkle.CustomImages.Parent = this.btnMusteriEkle;
             this.btnMusteriEkle.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnMusteriEkle.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnMusteriEkle.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnMusteriEkle.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnMusteriEkle.DisabledState.Parent = this.btnMusteriEkle;
             this.btnMusteriEkle.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(100)))), ((int)(((byte)(55)))));
             this.btnMusteriEkle.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnMusteriEkle.ForeColor = System.Drawing.Color.White;
-            this.btnMusteriEkle.HoverState.Parent = this.btnMusteriEkle;
             this.btnMusteriEkle.Location = new System.Drawing.Point(493, 11);
             this.btnMusteriEkle.Name = "btnMusteriEkle";
-            this.btnMusteriEkle.ShadowDecoration.Parent = this.btnMusteriEkle;
             this.btnMusteriEkle.Size = new System.Drawing.Size(126, 36);
             this.btnMusteriEkle.TabIndex = 18;
             this.btnMusteriEkle.Text = "Müşteri Ekle";
@@ -250,20 +225,15 @@ namespace VeritabaniProje
             // btnMusteriGuncelle
             // 
             this.btnMusteriGuncelle.BorderRadius = 5;
-            this.btnMusteriGuncelle.CheckedState.Parent = this.btnMusteriGuncelle;
-            this.btnMusteriGuncelle.CustomImages.Parent = this.btnMusteriGuncelle;
             this.btnMusteriGuncelle.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnMusteriGuncelle.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnMusteriGuncelle.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnMusteriGuncelle.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnMusteriGuncelle.DisabledState.Parent = this.btnMusteriGuncelle;
             this.btnMusteriGuncelle.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(100)))), ((int)(((byte)(55)))));
             this.btnMusteriGuncelle.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnMusteriGuncelle.ForeColor = System.Drawing.Color.White;
-            this.btnMusteriGuncelle.HoverState.Parent = this.btnMusteriGuncelle;
             this.btnMusteriGuncelle.Location = new System.Drawing.Point(493, 77);
             this.btnMusteriGuncelle.Name = "btnMusteriGuncelle";
-            this.btnMusteriGuncelle.ShadowDecoration.Parent = this.btnMusteriGuncelle;
             this.btnMusteriGuncelle.Size = new System.Drawing.Size(126, 36);
             this.btnMusteriGuncelle.TabIndex = 19;
             this.btnMusteriGuncelle.Text = "Müşteri Güncelle";
@@ -271,55 +241,50 @@ namespace VeritabaniProje
             // btnMusteriSil
             // 
             this.btnMusteriSil.BorderRadius = 5;
-            this.btnMusteriSil.CheckedState.Parent = this.btnMusteriSil;
-            this.btnMusteriSil.CustomImages.Parent = this.btnMusteriSil;
             this.btnMusteriSil.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnMusteriSil.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnMusteriSil.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnMusteriSil.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnMusteriSil.DisabledState.Parent = this.btnMusteriSil;
             this.btnMusteriSil.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(100)))), ((int)(((byte)(55)))));
             this.btnMusteriSil.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnMusteriSil.ForeColor = System.Drawing.Color.White;
-            this.btnMusteriSil.HoverState.Parent = this.btnMusteriSil;
             this.btnMusteriSil.Location = new System.Drawing.Point(493, 143);
             this.btnMusteriSil.Name = "btnMusteriSil";
-            this.btnMusteriSil.ShadowDecoration.Parent = this.btnMusteriSil;
             this.btnMusteriSil.Size = new System.Drawing.Size(126, 36);
             this.btnMusteriSil.TabIndex = 20;
             this.btnMusteriSil.Text = "Müşteri Sil";
             // 
             // dgMusteri
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            this.dgMusteri.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dgMusteri.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgMusteri.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgMusteri.BackgroundColor = System.Drawing.Color.White;
             this.dgMusteri.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgMusteri.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgMusteri.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgMusteri.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgMusteri.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgMusteri.ColumnHeadersHeight = 4;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgMusteri.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgMusteri.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgMusteri.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dgMusteri.EnableHeadersVisualStyles = false;
             this.dgMusteri.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgMusteri.Location = new System.Drawing.Point(0, 296);
-            this.dgMusteri.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgMusteri.Margin = new System.Windows.Forms.Padding(2);
             this.dgMusteri.Name = "dgMusteri";
             this.dgMusteri.RowHeadersVisible = false;
             this.dgMusteri.RowHeadersWidth = 51;
@@ -352,20 +317,15 @@ namespace VeritabaniProje
             // guna2Button1
             // 
             this.guna2Button1.BorderRadius = 5;
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.DisabledState.Parent = this.guna2Button1;
             this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(100)))), ((int)(((byte)(55)))));
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
             this.guna2Button1.Location = new System.Drawing.Point(493, 209);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
             this.guna2Button1.Size = new System.Drawing.Size(126, 36);
             this.guna2Button1.TabIndex = 22;
             this.guna2Button1.Text = "Geri Dön";
@@ -391,9 +351,10 @@ namespace VeritabaniProje
             this.Controls.Add(this.tbKimlikNo);
             this.Controls.Add(this.tbMusteriSoyad);
             this.Controls.Add(this.tbMusteriAd);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MusteriForm";
             this.Text = "MusteriForm";
+            this.Load += new System.EventHandler(this.MusteriForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgMusteri)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

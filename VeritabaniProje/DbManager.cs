@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Windows.Forms;
+using System.Data;
 namespace VeritabaniProje
 {
     public class DbManager
@@ -78,8 +79,6 @@ namespace VeritabaniProje
 
         public void odaListe(string komut, ComboBox cbOda)
         {
-            
-
             using (SqlConnection baglanti = sqlBaglanti.connection())
             {
                 using (SqlCommand command = new SqlCommand(komut, baglanti))
@@ -94,8 +93,20 @@ namespace VeritabaniProje
                     baglanti.Close();
                 }
             }
+        }
 
-            
+        public void musteriGridDoldur(string komut, DataGridView dataGrid)
+        {
+            using (SqlConnection baglanti = sqlBaglanti.connection())
+            {
+                using (SqlDataAdapter da = new SqlDataAdapter(komut, baglanti))
+                {
+                    DataTable table = new DataTable();
+                    da.Fill(table);
+                    dataGrid.DataSource = table;
+                    baglanti.Close();
+                }
+            }
         }
     }
 }
